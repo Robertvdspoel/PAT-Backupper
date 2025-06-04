@@ -29,3 +29,5 @@ e.g.
 
 Put the location of your PAT
 -Only one location
+
+* 'For the Average Persons Use' is a folder that contains a ready to use exe and the txt files required to start using the Backupper strait out of the box
