@@ -54,26 +54,6 @@ def Backup1():   # Backup the PAT
 
     confirm.delete(0, len(confirm.get()))
     confirm.insert(0, 'Files have been copied successfully to Backup Locations')
-    
-'''
-
-def Backup2():  # Backup the Dandelion files to backup locations  
-    Path = "K:/Graad 11/IT11 Dandel10n Data2024"                    
-
-    if not os.path.exists(Path):
-       tkinter.messagebox.showerror('Error', f'{Path} not found.')
-       return None
-
-    dates =f'{datetime.now().year}-{datetime.now().month}-{datetime.now().day}---{datetime.now().hour}--{datetime.now().minute}--{datetime.now().second}'
-
-    CopyTo = f'C:/Users/vdspoel.r2025.it/OneDrive - hsrandburg.co.za/IT\Files Transfer/Files/Dandelion/{dates}'  
-
-    shutil.copytree(Path, CopyTo)
-    
-    confirm.delete(0, len(confirm.get()))
-    confirm.insert(0, 'Files have been copied successfully to OneDrive')
-    
-'''
 
 def main():
     GUI()
